@@ -1,0 +1,17 @@
+.header-container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .header-item {
+        margin: 1rem 1rem 1rem 1rem;
+        cursor: pointer;
+        user-select: none;
+
+        &:hover {
+            text-decoration: underline;
+            color: blanchedalmond;
+        }
+    }
+}
